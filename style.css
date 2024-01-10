@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    background-color: #FAFAF9;
+    padding: 150px 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.text * {
+    margin-bottom: 16px;
+}
+
+.text span {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: goldenrod;
+}
+
+.text h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.text p {
+    font-size: 20px;
+    color: #52525A;
+    line-height: 40px;
+}
+
+.list {
+    margin-top: 24px;
+    color: #D4D4D8;
+    font-size: 14px;
+}
+
+.list div {
+    margin-bottom: 8px;
+}
+
+.list img {
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+
+.review-text {
+    width: 55%;
+}
+
+.photo {
+    width: 80px;
+}
+
+.card-img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviews {
+    width: 45%;
+    height: 100%;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.card {
+    max-width: 300px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.card .card-img {
+    margin-bottom: 16px;
+}
+
+.card h3 {
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #D4D4D8;
+    line-height: 32px;
+}
+
+.card1 {
+   margin-left: auto;
+   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        padding: 100px 20px;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .review-text, .reviews {
+        width: 100%;
+    }
+}
